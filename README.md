@@ -1,65 +1,78 @@
-# 👋 Hello ! I'm Maheen 💻✨
+# 👋 Hello! I'm Maheen 💻✨
 
-A passionate **Back-end  + Android Developer in the making**, currently grinding through my **2nd semester** of BSCS at **NUML** Lahore.
+**A Creative Tech Enthusiast |Frontend Backend & Mobile Developer | Designer in the Making**
 
----
-
-## 🚀 What's Cooking?
-
-Currently building my dev arsenal with a solid grip on:
-
-- 🧠 **Java & OOP** (my comfort zone)
-- 💻 **Backend Dev** – Java + JDBC + Databases (SQL gang rise up 📈)
-- 🎨 **Frontend Fun** – HTML, CSS, JavaScript (because pretty UIs matter too)
-- 📱 **Android Dev** – Just vibing with **Android Studio** + Java (Kotlin soon 👀)
-- 🧩 **C++** – for that sharp logic game 🧠💥
+I’m a **Computer Science undergrad at NUML, Lahore (3rd Semester)** with a burning passion for crafting **meaningful, user-centric digital experiences** — from scalable backend systems to stunning mobile apps and aesthetic designs.
 
 ---
 
-## 🔧 Real-World Builds
+## 🚀 What I'm Actively Building:
 
-Here’s what I’ve been cooking in the dev lab:
+Currently expanding my skillset across **development and design**, including:
+
+* 🧠 **Java & OOP** – My comfort zone. Whether it's building complex systems or mini games with Swing, OOP in Java is my strong suit.
+* 💾 **Backend Development** – Working with **JDBC, MySQL**, and gradually shifting towards **RESTful APIs** and scalable backend design.
+* 🌐 **Frontend Development** – I bring designs to life with **HTML, CSS, and JavaScript**. Not just code – I care about UI/UX too.
+* 📱 **Android App Development** – Using **Java in Android Studio**, and now diving into **Flutter** to build **cross-platform apps** with **Dart**.
+* 🧩 **C++ Programming** – Keeping my logic sharp through problem-solving and algorithm-based projects.
+* 🎨 **Graphic Designing** – Creating visuals for brands, startups, and personal projects — using **Canva, Adobe Photoshop, After Effects**, and more.
+
+---
+
+## 🔧 Projects That Define Me
 
 ### 🐾 Virtual Pet Simulator
-> A fun, GUI-based game that brings a digital pet to life. Built with Java Swing and OOP concepts!
+
+> A fun, interactive pet game made in Java using Swing, showcasing deep understanding of **OOP**, event handling, and GUI design.
 
 ### 📚 Library Management System
-> File-handling + OOP + GUI right now — DB integration loading soon... ⏳💾
 
-### websites for business
-> various front end websites for bussinesses
+> File-handling + GUI + OOP with Java. Currently in progress – planning to integrate **MySQL database** using JDBC.
 
-### websites for business
->back end webites too
+### 🛍️ Business Websites (Front + Back)
 
+> Designed and developed full-stack websites for local clients — from layout to backend logic and form integration.
 
+### 📱 Flutter-Based Mobile Apps
 
+> Now building visually clean, responsive mobile apps using Flutter & Dart. Focused on navigation, state management, and sleek UI/UX.
 
----
+### 🎨 Custom Graphic Design Projects
 
-## 📅 Daily Grind
-
-Every day is a:
-- 💪 New logic challenge (shoutout to HackerRank 🧠🔥)
-- 📚 New concept explored
-- ⌨️ Another step towards full-stack + app dev mastery
+> Designed logos, event banners, social media content, and marketing visuals for friends, businesses, and startup pages.
 
 ---
 
-## 🎯 Goals on My Radar
+## 📅 My Daily Dev Flow
 
-- Get **internship-ready** by the end of this year
-- Become a **Full-Stack Developer** with backend mastery and solid UI/UX
-- Launch Android apps 📱
-- Master **Git & GitHub** collab game
-- Contribute to **real projects** (freelancing & open source incoming 🚀)
+Each day I:
+
+* ✅ Practice coding problems (shoutout to HackerRank & LeetCode!)
+* ✅ Learn new dev tools or frameworks
+* ✅ Build or enhance a real project
+* ✅ Create something visually appealing — even if it’s just a post
 
 ---
 
-## 💡 Fun Fact:
+## 🎯 My 2025 Goals
 
-I game hard and code harder. 🎮🔥  
-If I’m not fixing bugs, I’m probably top-fragging in **Tekken**, **COD**, 🎯💥
+* 🔍 **Land an internship** by the end of this year
+* 💼 Become a **Full-Stack Developer** (Backend first, but UI matters too)
+* 📱 Launch my first **Flutter-based mobile app**
+* 🔗 Master **Git & GitHub** for team collaboration
+* 🌍 Contribute to **open-source projects & freelance gigs**
+* 🎨 Sharpen my **graphic design** & branding game for real-world use
+
+---
+
+## 🎮 A Little More About Me
+
+When I’m not immersed in code, you’ll find me:
+
+* Gaming like a pro (COD, Tekken, PUBG 👾)
+* Designing Instagram posts for friends' brands 🧠🎨
+* Dreaming up cool app ideas 💡📲
+
 ---
 
 ## 🌐 Socials:
