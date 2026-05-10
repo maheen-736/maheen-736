@@ -8,7 +8,7 @@
 ╚══════════════════════════════════════════╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=435&lines=Full-Stack+Developer+in+Progress;Mobile+Dev+%7C+Flutter+%26+Android;Designer+Who+Also+Codes;NUML+CS+%E2%80%94+3rd+Semester)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=435&lines=Full-Stack+Developer+in+Progress;Designer+Who+Also+Codes;NUML+CS+%E2%80%94+4th+Semester)](https://git.io/typing-svg)
 
 </div>
 
@@ -17,21 +17,37 @@
 ### about
 
 4th semester CS student at NUML, Lahore.  
-I build things — backends, frontends,  and whatever else needs building.  
+I build things — backends, frontends, mobile apps, and whatever else needs building.  
 Currently obsessed with making software that actually looks good.
 
 ---
 
 ### stack
 
-```
-Languages     →  Java · JavaScript · C++ ·
-Frontend      →  HTML · CSS · React · Bootstrap
-Backend       →  Node · PHP · Laravel · MySQL · JDBC
-Mobile        →  Android (Java) · Flutter
-Design        →  Figma · Photoshop · After Effects · Canva
-Tools         →  Git · VS Code 
-```
+**Languages**  
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+
+**Frontend**  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+
+**Backend**  
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00f?style=flat-square&logo=mysql&logoColor=white)
+![JDBC](https://img.shields.io/badge/JDBC-007396?style=flat-square&logo=java&logoColor=white)
+
+**Design & Tools**  
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobe%20photoshop&logoColor=white)
+![After Effects](https://img.shields.io/badge/After%20Effects-9999FF?style=flat-square&logo=adobe%20after%20effects&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=canva&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-121011?style=flat-square&logo=github&logoColor=white)
 
 ---
 
