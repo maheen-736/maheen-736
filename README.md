@@ -1,6 +1,6 @@
 <div align="center">
 
-# hi, i'm maheen ✦
+# hi, i'm Maheen 
 
 **frontend dev · designer · co-founder @ stack fuse**
 
@@ -42,15 +42,13 @@ Co-founder @ [Stack Fuse](https://stackfuse.vercel.app/) · Social Media Manager
 
 
 
-## 📊 GitHub stats
+## GitHub stats
 
-<div align="center">
+![](https://github-readme-stats.vercel.app/api?username=maheen-736&theme=dark&show_icons=true)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=maheen-736&theme=dark&layout=compact)
 
-![](https://github-readme-stats.vercel.app/api?username=maheen-736&theme=dark&hide_border=true&include_all_commits=false&count_private=true&bg_color=0D0D0D&title_color=C084FC&icon_color=C084FC&text_color=FFFFFF)
-![](https://nirzak-streak-stats.vercel.app/?user=maheen-736&theme=dark&hide_border=true&background=0D0D0D&stroke=C084FC&ring=C084FC&fire=C084FC&currStreakLabel=C084FC)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=maheen-736&theme=dark&hide_border=true&include_all_commits=false&count_private=true&layout=compact&bg_color=0D0D0D&title_color=C084FC&text_color=FFFFFF)
+---
 
-</div>
 ## connect
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/maheen-khadim)
