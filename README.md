@@ -4,7 +4,7 @@
 
 **frontend dev · designer · co-founder @ stack fuse**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=400&lines=react+%7C+bootstrap+%7C+js;NUML+CS+%E2%80%94+4th+semester)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=400&lines=react+%7C+bootstrap+%7C+js;NUML+CS+%E2%80%94+[...]
 
 </div>
 
@@ -44,8 +44,8 @@ Co-founder @ [Stack Fuse](https://stackfuse.vercel.app/) · Social Media Manager
 
 ## GitHub stats
 
-![](https://github-readme-stats.vercel.app/api?username=maheen-736&theme=dark&show_icons=true)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=maheen-736&theme=dark&layout=compact)
+[![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=maheen-736&theme=dark&show_icons=true&hide_border=true)](https://github.com/maheen-736)
+[![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=maheen-736&theme=dark&layout=compact&hide_border=true)](https://github.com/maheen-736)
 
 ---
 
