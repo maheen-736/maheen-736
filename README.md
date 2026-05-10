@@ -8,7 +8,7 @@
 ╚══════════════════════════════════════════╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=435&lines=Full-Stack+Developer+in+Progress;Designer+Who+Also+Codes;NUML+CS+%E2%80%94+4th+Semester)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=435&lines=Frontend+Developer;Designer+Who+Also+Codes;Co-founder+%40+Stack+Fuse;NUML+CS+%E2%80%94+4th+Semester)](https://git.io/typing-svg)
 
 </div>
 
@@ -16,9 +16,9 @@
 
 ### about
 
-4th semester CS student at NUML, Lahore.  
-I build things — backends, frontends, mobile apps, and whatever else needs building.  
-Currently obsessed with making software that actually looks good.
+CS student @ NUML Lahore, 4th semester.  
+Frontend-focused — React, Bootstrap, JavaScript.  
+Co-founder @ [Stack Fuse](https://stackfuse.vercel.app/) · Social Media Manager
 
 ---
 
@@ -51,26 +51,11 @@ Currently obsessed with making software that actually looks good.
 
 ---
 
-### projects
+## 📊 GitHub Stats:
 
-| project | what it is |
-|---|---|
-| **NUML Society Portal** | Full-stack web app — societies, events, registrations. React + Bootstrap + Laravel |
-| **Virtual Pet Simulator** | Java Swing game. OOP-heavy, actually fun |
-| **Library Management System** | Java + MySQL + JDBC. Full GUI |
-| **Client Websites** | End-to-end builds for local businesses |
-
----
-
-### stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=maheen-736&theme=midnight-purple&hide_border=true&include_all_commits=false&count_private=true&show_icons=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=maheen-736&theme=midnight-purple&hide_border=true&layout=compact)
-
-</div>
+![](https://github-readme-stats.vercel.app/api?username=maheen-736\&theme=date_night\&hide_border=false\&include_all_commits=false\&count_private=true)
+![](https://nirzak-streak-stats.vercel.app/?user=maheen-736\&theme=date_night\&hide_border=false)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=maheen-736\&theme=date_night\&hide_border=false\&include_all_commits=false\&count_private=true\&layout=compact)
 
 ---
 
