@@ -1,61 +1,136 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240">
+  <defs>
+    <clipPath id="gameClip"><rect x="0" y="0" width="900" height="170"/></clipPath>
+    <clipPath id="tickerClip"><rect x="0" y="170" width="900" height="70"/></clipPath>
+  </defs>
+
   <style>
-    .dino { fill: #535353; }
-    .cactus { fill: #535353; }
-    .cloud { fill: #cccccc; }
+    .ink   { fill:#16172A; }
+    .cream { fill:#F3EEd6; }
+    .orange{ fill:#E64E1E; }
+    .cobalt{ fill:#2B3A8C; }
+    .paper { fill:#E7DC2E; }
+    text   { font-family:'Courier New', monospace; font-weight:700; }
   </style>
 
-  <!-- background -->
-  <rect x="0" y="0" width="800" height="200" fill="#ffffff"/>
+  <!-- outer frame -->
+  <rect x="1.5" y="1.5" width="897" height="237" fill="none" stroke="#16172A" stroke-width="3"/>
 
-  <!-- ground -->
-  <line x1="0" y1="160" x2="800" y2="160" stroke="#535353" stroke-width="2"/>
-  <g>
-    <line x1="0" y1="160" x2="30" y2="160" stroke="#535353" stroke-width="2"/>
-    <line x1="60" y1="160" x2="90" y2="160" stroke="#535353" stroke-width="2"/>
-    <line x1="120" y1="160" x2="150" y2="160" stroke="#535353" stroke-width="2"/>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="-150 0" dur="0.8s" repeatCount="indefinite"/>
-  </g>
+  <!-- ================= GAME AREA ================= -->
+  <g clip-path="url(#gameClip)">
+    <rect x="0" y="0" width="900" height="170" class="cream"/>
 
-  <!-- clouds -->
-  <g class="cloud">
-    <rect x="100" y="40" width="40" height="8" rx="3"/>
-    <rect x="400" y="60" width="40" height="8" rx="3"/>
-    <rect x="650" y="30" width="40" height="8" rx="3"/>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="-800 0" dur="6s" repeatCount="indefinite"/>
-  </g>
-
-  <!-- cactus, moving toward dino and looping -->
-  <g class="cactus">
-    <rect x="0" y="120" width="10" height="40"/>
-    <rect x="-8" y="128" width="8" height="8"/>
-    <rect x="10" y="128" width="8" height="8"/>
-    <animateTransform attributeName="transform" type="translate" from="750 0" to="-50 0" dur="1.6s" repeatCount="indefinite"/>
-  </g>
-
-  <!-- dino body (fixed x position, small hop) -->
-  <g class="dino" transform="translate(60,0)">
-    <animateTransform attributeName="transform" type="translate" values="60,0;60,-10;60,0;60,0;60,0;60,0;60,0;60,0" keyTimes="0;0.08;0.16;0.3;0.5;0.7;0.9;1" dur="1.6s" repeatCount="indefinite" additive="sum"/>
-
-    <!-- body -->
-    <rect x="0" y="90" width="40" height="30"/>
-    <!-- head -->
-    <rect x="30" y="70" width="24" height="24"/>
-    <!-- eye -->
-    <rect x="46" y="76" width="4" height="4" fill="#ffffff"/>
-    <!-- tail -->
-    <rect x="-10" y="95" width="14" height="8"/>
-    <!-- arm -->
-    <rect x="30" y="100" width="8" height="6"/>
-
-    <!-- legs, alternating -->
-    <g>
-      <rect x="6" y="120" width="8" height="14"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-6;0,0" keyTimes="0;0.3;0.5;1" dur="0.3s" repeatCount="indefinite"/>
+    <!-- clouds -->
+    <g class="cobalt" opacity="0.35">
+      <rect x="120" y="30" width="46" height="8" rx="3"/>
+      <rect x="430" y="55" width="46" height="8" rx="3"/>
+      <rect x="700" y="24" width="46" height="8" rx="3"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="7s" repeatCount="indefinite"/>
     </g>
-    <g>
-      <rect x="22" y="120" width="8" height="14"/>
-      <animateTransform attributeName="transform" type="translate" values="0,-6;0,0;0,0;0,-6" keyTimes="0;0.3;0.5;1" dur="0.3s" repeatCount="indefinite"/>
+
+    <!-- ground -->
+    <line x1="0" y1="150" x2="900" y2="150" stroke="#16172A" stroke-width="2"/>
+    <g stroke="#16172A" stroke-width="2">
+      <line x1="0" y1="150" x2="34" y2="150"/>
+      <line x1="70" y1="150" x2="104" y2="150"/>
+      <line x1="140" y1="150" x2="174" y2="150"/>
+      <line x1="210" y1="150" x2="244" y2="150"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-280 0" dur="1.5s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- cactus: 900 -> -100 over 3s, loops in sync with dino cycle -->
+    <g class="orange">
+      <rect x="0" y="112" width="10" height="38"/>
+      <rect x="-9" y="120" width="9" height="8"/>
+      <rect x="10" y="126" width="9" height="8"/>
+      <animateTransform attributeName="transform" type="translate" from="900 0" to="-100 0" dur="3s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- impact spark: only visible during the collision window (~0.78-0.85 of cycle) -->
+    <g transform="translate(112,88)">
+      <path class="orange" d="M0,-14 L4,-3 L15,-3 L6,4 L9,15 L0,8 L-9,15 L-6,4 L-15,-3 L-4,-3 Z">
+        <animate attributeName="opacity" dur="3s" repeatCount="indefinite"
+          keyTimes="0;0.77;0.79;0.85;0.87;1" values="0;0;1;1;0;0"/>
+      </path>
+      <text x="18" y="-6" font-size="13" class="orange">
+        bonk
+        <animate attributeName="opacity" dur="3s" repeatCount="indefinite"
+          keyTimes="0;0.77;0.79;0.85;0.87;1" values="0;0;1;1;0;0"/>
+      </text>
+    </g>
+
+    <!-- dino: jumps only when clear, stays grounded through the collision window -->
+    <g transform="translate(70,0)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" dur="3s" repeatCount="indefinite"
+        keyTimes="0;0.08;0.16;0.30;0.38;0.55;0.63;0.78;0.85;0.92;1"
+        values="0,0; 0,-30; 0,0; 0,-30; 0,0; 0,-30; 0,0; 0,0; 0,0; 0,-30; 0,0"/>
+
+      <!-- body -->
+      <rect class="ink" x="0" y="90" width="40" height="30"/>
+      <!-- head -->
+      <rect class="ink" x="30" y="70" width="24" height="24"/>
+      <!-- eye -->
+      <rect class="cream" x="46" y="76" width="4" height="4"/>
+      <!-- tail -->
+      <rect class="ink" x="-10" y="95" width="14" height="8"/>
+      <!-- arm -->
+      <rect class="ink" x="30" y="100" width="8" height="6"/>
+
+      <!-- legs -->
+      <g class="ink">
+        <rect x="6" y="120" width="8" height="14"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-6;0,0" keyTimes="0;0.3;0.5;1" dur="0.3s" repeatCount="indefinite"/>
+      </g>
+      <g class="ink">
+        <rect x="22" y="120" width="8" height="14"/>
+        <animateTransform attributeName="transform" type="translate" values="0,-6;0,0;0,0;0,-6" keyTimes="0;0.3;0.5;1" dur="0.3s" repeatCount="indefinite"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= TICKER STRIP ================= -->
+  <g clip-path="url(#tickerClip)">
+    <rect x="0" y="170" width="900" height="70" class="ink"/>
+    <line x1="0" y1="170" x2="900" y2="170" stroke="#16172A" stroke-width="3"/>
+
+    <g transform="translate(0,213)">
+      <text font-size="17" letter-spacing="0.5">
+        <tspan class="paper">IT WORKS ON MY MACHINE</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+        <tspan class="paper" dx="18">PUSHED TO MAIN ON A FRIDAY</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+        <tspan class="paper" dx="18">CONSOLE.LOG('PLEASE WORK')</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+        <tspan class="paper" dx="18">COFFEE.EXE IS RUNNING</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+        <tspan class="paper" dx="18">404: SLEEP NOT FOUND</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+        <tspan class="paper" dx="18">COMMIT MSG: FIX STUFF</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+        <tspan class="paper" dx="18">NPM INSTALL AND PRAY</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+        <tspan class="paper" dx="18">STILL DEBUGGING, STILL VIBING</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+      </text>
+      <text x="2000" font-size="17" letter-spacing="0.5">
+        <tspan class="paper">IT WORKS ON MY MACHINE</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+        <tspan class="paper" dx="18">PUSHED TO MAIN ON A FRIDAY</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+        <tspan class="paper" dx="18">CONSOLE.LOG('PLEASE WORK')</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+        <tspan class="paper" dx="18">COFFEE.EXE IS RUNNING</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+        <tspan class="paper" dx="18">404: SLEEP NOT FOUND</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+        <tspan class="paper" dx="18">COMMIT MSG: FIX STUFF</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+        <tspan class="paper" dx="18">NPM INSTALL AND PRAY</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+        <tspan class="paper" dx="18">STILL DEBUGGING, STILL VIBING</tspan>
+        <tspan class="orange" dx="18">///</tspan>
+      </text>
+      <animateTransform attributeName="transform" type="translate" from="0 213" to="-2000 213" dur="20s" repeatCount="indefinite"/>
     </g>
   </g>
 </svg>
