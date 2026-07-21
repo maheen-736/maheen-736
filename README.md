@@ -5,6 +5,7 @@
 **frontend dev · designer · co-founder @ stack fuse**
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=400&lines=react+%7C+bootstrap+%7C+js;NUML+CS+%E2%80%94+4th+semester)](https://git.io/typing-svg)
+![dino](https://raw.githubusercontent.com/maheen-736/maheen-736/main/dino.svg)
 
 </div>
 
