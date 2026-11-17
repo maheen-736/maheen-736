@@ -15,7 +15,7 @@
 
 CS student @ NUML Lahore · 5th semester  
 Frontend-focused — React, Bootstrap, JavaScript  
-Co-founder @ [Stack Fuse](https://stackfuse.vercel.app/) · Social Media Manager
+
 
 ---
 
