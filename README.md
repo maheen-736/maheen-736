@@ -67,3 +67,4 @@ Frontend-focused — React, Bootstrap, JavaScript
 <sub>open to collabs · feedback · and cool tech convos ✦</sub>
 </div>
 <!-- Updating my developer profile -->
+<!-- Continuously learning, building projects, and exploring new technologies. -->
