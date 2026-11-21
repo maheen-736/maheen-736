@@ -66,3 +66,4 @@ Frontend-focused — React, Bootstrap, JavaScript
 <div align="center">
 <sub>open to collabs · feedback · and cool tech convos ✦</sub>
 </div>
+<!-- Updating my developer profile -->
